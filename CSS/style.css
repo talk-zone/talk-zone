@@ -1,0 +1,72 @@
+div::-webkit-scrollbar {
+    width: 3px;
+}
+
+div:hover::-webkit-scrollbar {
+    width: 10px;
+}
+
+div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+a {
+    cursor: pointer;
+}
+
+#welcomeImg {
+    margin: 23px 15px;
+    max-width: 40px;
+    max-height: 40px;
+    align-items: center;
+}
+
+#chat {
+    display: block;
+    margin: auto;
+    padding: 2px 2px;
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+.message {
+    color: white;
+    border: 2px solid rgb(2, 71, 175);
+    border-radius: 5px;
+    display: block;
+    height: fit-content;
+    margin: 10px;
+    padding: 4px 2rem;
+}
+
+.sent {
+    float: right;
+    clear: both;
+}
+
+.recieved {
+    float: left;
+    clear: both;
+    border-color: rgb(95, 68, 170);
+}
+
+.msg {
+    margin: auto;
+    margin-top: 1rem;
+    overflow: auto;
+    height: fit-content;
+    max-width: 60vh;
+}
+
+#msg {
+    width: 80%;
+}
+
+#btnSend {
+    max-width: 20%;
+}

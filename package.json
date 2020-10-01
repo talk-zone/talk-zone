@@ -1,0 +1,17 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "This Web App manages Real Time Chat App -> Let's Chat",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Suryansh",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "ngrok": "^3.2.7",
+        "nodemon": "^2.0.4",
+        "socket.io": "^2.3.0"
+    }
+}
